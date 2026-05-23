@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-bottom: 10px;
+}
+
+.bmw a{
+    text-decoration: none;
+    color:white;
+    margin-right: 50px;
+}
+.icon a{
+    text-decoration: none;
+    color:white;
+margin-right: 50px;
+
+}
+
+hr{
+    margin-left: 32px;
+    width: 95%;
+    height: 5px;
+    background-color: white;
+}
+.mi5 p{
+    margin: 30px 50px;
+    color: white;
+}
+.the{
+    margin: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color:white;
+}
+.dis{
+    margin-left: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 130px;
+    background-color: rgb(48, 48, 244);
+    color: white;
+    border: none;
+    
+}
+
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+   
+}
+@media (max-aspect-ratio:16/9) {
+    video{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+ .first{
+    margin-top: 40px 80px;
+
+}
+.the h3{
+    font-size: 150px;
+}
+.one{
+    margin-top: 100px;
+    height: 560px;
+background-image: url(bmw11.png);
+background-size: 100% 100%;
+}
+.two{
+
+    color: white;
+    margin-top: 200px;
+    margin-left: 50px;
+    position:absolute;
+
+}
+.two h5{
+    margin-bottom: 5px;
+}
+.two h3{
+   font-size: 50px;
+   margin-bottom: 10px;
+}
+.two h4{
+    font-size: 30px;
+}
+.two button{
+    padding: 10px 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.three {
+    text-align: center;
+    margin-top: 100px;
+}
+.three h3{
+    margin-top: 10px;
+font-size: 50px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.box1 img{
+    width: 290px;
+    height: 130px;
+}
+.now{
+    padding: 10px 10px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+.now:hover{
+    border: 3px solid black;
+}
+
+.box2 img{
+    width: 290px;
+    height: 130px;
+}
+.box3 img{
+    width: 290px;
+    height: 130px;
+}
+.the7{
+    margin-top:50px;
+    height: 550px;
+    background-image: url(bmw33.jpg);
+    background-size: 100% 100%;
+}
+
+.the7 h2{
+    color: white;
+    position:relative;
+    top: 30%;
+    left: 25px;
+    font-size: 50px;
+}
+.more{
+position: relative;
+top: 220px;
+left: 70px;
+padding: 10px 25px;
+
+}
+.ix{
+    margin-top: 80px;
+    display:inline-flex;
+    gap: 30px;
+}
+.joy h4{
+    margin-top: 50px;
+}
+.joy h1{
+    margin: 10px 0 15px 0;
+    font-size: 50px;
+}
+.joy button{
+    margin-top: 40px;
+    width: 160px;
+    height: 50px;
+ border: 1px solid black;
+ background-color: white;
+ font-size: 15px;
+}
+
+.joy button:hover{
+    border: 2px solid black;
+}
+
+.five{
+    display: inline-flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+.home{
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+.home h1{
+    margin: 10px 0 15px 0;
+    font-size: 50px;
+}
+.home button{
+    margin-top: 40px;
+    width: 160px;
+    height: 50px;
+ border: 1px solid black;
+ background-color: white;
+ font-size: 15px;
+}
+
+.home button:hover{
+    border: 2px solid black;
+}
